@@ -6,12 +6,12 @@ services:
     image: amrreda88/reverseproxy 
   backend_user:
     build:
-      context: ../../udacity-c3-restapi-user
-    image: amrreda88/udacity-c3-restapi-user
+      context: ../../udacity-c3-user
+    image: amrreda88/udacity-c3-user
   backend_feed:
     build:
-      context: ../../udacity-c3-restapi-feed  
-    image: amrreda88/udacity-c3-restapi-feed
+      context: ../../udacity-c3-feed  
+    image: amrreda88/udacity-c3-feed
   frontend:
     build:
       context: ../../udacity-c3-frontend  
